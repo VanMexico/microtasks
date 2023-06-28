@@ -1,5 +1,11 @@
+import { TopCars } from './components/TopCars/TopCars.tsx'
+
 function App() {
-  return <>APP</>
+  return (
+    <>
+      <TopCars />
+    </>
+  )
 }
 
 export default App
