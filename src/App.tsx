@@ -2,6 +2,7 @@ import { TopCars } from './components/TopCars/TopCars.tsx'
 import { Buttons } from './components/Buttons/Buttons.tsx'
 import { Money } from './components/Money/Money.tsx'
 import { useState } from 'react'
+import { Messages } from './components/Input/Messages.tsx'
 
 export type MoneyType = {
   banknots: string
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+      <Messages />
       <Money moneyList={money} />
       <Buttons />
       <TopCars />
